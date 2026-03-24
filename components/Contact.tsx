@@ -126,7 +126,7 @@ export default function Contact() {
 
             <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
               <a
-                href="mailto:eric.vreeland@gmail.com"
+                href="mailto:eric@everydimension.xyz"
                 style={{
                   display: 'flex',
                   alignItems: 'center',
@@ -159,7 +159,7 @@ export default function Contact() {
                 >
                   ✉
                 </span>
-                eric.vreeland@gmail.com
+                eric@everydimension.xyz
               </a>
 
               <a
@@ -326,7 +326,7 @@ export default function Contact() {
 
                 {status === 'error' && (
                   <p style={{ color: '#ef4444', fontSize: '14px' }}>
-                    Something went wrong. Please try emailing directly at eric.vreeland@gmail.com
+                    Something went wrong. Please try emailing directly at eric@everydimension.xyz
                   </p>
                 )}
 
