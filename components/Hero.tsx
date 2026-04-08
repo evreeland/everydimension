@@ -164,10 +164,10 @@ export default function Hero() {
           }}
         >
           {[
-            { val: '$1B', suffix: '+', label: 'Revenue pipeline generated' },
-            { val: '7', suffix: '×', label: 'Average revenue growth delivered' },
-            { val: '1M', suffix: '+', label: 'Users acquired across products' },
-            { val: '$20M', suffix: '+', label: 'In partnership deals closed' },
+            { val: '$1B', suffix: '+', label: ['Revenue pipeline', 'generated'] },
+            { val: '7', suffix: '×', label: ['Average revenue', 'growth delivered'] },
+            { val: '1M', suffix: '+', label: ['Users acquired', 'across products'] },
+            { val: '$20M', suffix: '+', label: ['Partnership deals', 'closed'] },
           ].map((stat) => (
             <div key={stat.label}>
               <div
@@ -186,9 +186,10 @@ export default function Hero() {
                   fontSize: '13px',
                   color: '#8a8a8a',
                   marginTop: '4px',
+                  lineHeight: 1.4,
                 }}
               >
-                {stat.label}
+                {stat.label[0]}<br />{stat.label[1]}
               </div>
             </div>
           ))}
