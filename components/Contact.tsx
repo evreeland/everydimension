@@ -108,7 +108,7 @@ export default function Contact() {
                 color: '#fff',
               }}
             >
-              The right engagement starts with the right conversation.
+              Every great partnership starts with a conversation.
             </h3>
             <p
               style={{
@@ -118,10 +118,10 @@ export default function Contact() {
                 marginBottom: '36px',
               }}
             >
-              If you&rsquo;re building something in Web3 or SaaS and you need
-              senior GTM leadership that can hit the ground running &mdash; not
-              a six-week onboarding &mdash; let&rsquo;s talk. Typical
-              engagements run 3&ndash;6 months with flexible scope.
+              If you&rsquo;re building something ambitious in Web3 or SaaS
+              and need a GTM team that can hit the ground running &mdash; not
+              a six-month ramp &mdash; let&rsquo;s talk. We scope engagements
+              around your goals, not around billable hours.
             </p>
 
             <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
@@ -229,7 +229,7 @@ export default function Contact() {
                   Message sent.
                 </h3>
                 <p style={{ color: '#8a8a8a', fontSize: '15px' }}>
-                  I&rsquo;ll get back to you within 24 hours.
+                  We&rsquo;ll get back to you within 24 hours.
                 </p>
               </div>
             ) : (

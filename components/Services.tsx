@@ -29,7 +29,7 @@ const services = [
   {
     icon: '🤝',
     title: 'PR & Ecosystem Partnerships',
-    body: "Earned media and strategic partnerships that carry real weight — not press releases nobody reads. We've closed $10M+ in ecosystem deals and driven coverage that shaped how protocols are perceived at launch.",
+    body: "Earned media and strategic partnerships that carry real weight — not press releases nobody reads. We close ecosystem deals and drive coverage that shapes how protocols are perceived at launch and beyond.",
   },
 ]
 

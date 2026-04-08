@@ -68,7 +68,7 @@ export default function Hero() {
               flexShrink: 0,
             }}
           />
-          Fractional CMO &middot; Web3 &amp; SaaS GTM
+          GTM Strategy &middot; Web3 &amp; SaaS
         </div>
 
         {/* Headline */}
@@ -82,12 +82,12 @@ export default function Hero() {
             color: '#fff',
           }}
         >
-          Build the machine
+          We turn ambitious
           <br />
-          that takes you
+          companies into
           <br />
-          from seed to{' '}
-          <em style={{ fontStyle: 'normal', color: '#3b82f6' }}>scale.</em>
+          market{' '}
+          <em style={{ fontStyle: 'normal', color: '#3b82f6' }}>leaders.</em>
         </h1>
 
         {/* Subheadline */}
@@ -100,13 +100,13 @@ export default function Hero() {
             marginBottom: '44px',
           }}
         >
-          Every Dimension is{' '}
+          Every Dimension is a{' '}
           <strong style={{ color: '#fff', fontWeight: 500 }}>
-            senior GTM leadership on demand
+            GTM strategy firm
           </strong>{' '}
-          &mdash; for Web3 infrastructure companies, crypto protocols, and B2B
-          SaaS teams that need a real operator, not a consultant with a deck
-          full of slides.
+          that partners with Web3 protocols, crypto infrastructure companies,
+          and high-growth SaaS teams to build the go-to-market engines that
+          drive category leadership.
         </p>
 
         {/* CTA */}
@@ -145,10 +145,10 @@ export default function Hero() {
               el.style.boxShadow = 'none'
             }}
           >
-            Let&rsquo;s Talk
+            Work With Us
           </a>
           <span style={{ fontSize: '14px', color: '#444' }}>
-            No retainer minimums. No fluff. Just results.
+            Strategy. Execution. Results.
           </span>
         </div>
 
@@ -164,10 +164,10 @@ export default function Hero() {
           }}
         >
           {[
-            { val: '$100M', suffix: '+', label: 'Pipeline generated across career' },
-            { val: '15', suffix: 'yrs', label: 'Building GTM from zero' },
-            { val: '3', suffix: '', label: 'Web3 protocols scaled' },
-            { val: '$35M', suffix: '', label: 'ARR scaled at People Data Labs' },
+            { val: '$1B', suffix: '+', label: 'Revenue pipeline generated' },
+            { val: '7', suffix: '×', label: 'Average revenue growth delivered' },
+            { val: '1M', suffix: '+', label: 'Users acquired across products' },
+            { val: '$20M', suffix: '+', label: 'In partnership deals closed' },
           ].map((stat) => (
             <div key={stat.label}>
               <div

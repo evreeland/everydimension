@@ -4,18 +4,18 @@ export default function Problem() {
   const problems = [
     {
       num: '01',
-      title: 'Senior GTM costs $400K+/year — before equity',
-      body: "At the seed or Series A stage, that's a burn category most boards won't approve. But going without real marketing leadership means your growth strategy is either nonexistent or delegated to people who are figuring it out alongside you.",
+      title: 'Senior GTM talent is expensive and hard to find',
+      body: "A full-time CMO costs $400K+ before equity. At the seed or Series A stage, that's a burn category most boards won't approve. But going without real marketing leadership means your growth strategy is either nonexistent or built by people learning on the job.",
     },
     {
       num: '02',
-      title: 'Most fractional CMOs are generalists with a deck',
-      body: "They've run brand campaigns at mid-market SaaS companies. They'll talk about funnels and positioning frameworks. What they haven't done: market a ZK-proof protocol to enterprise, ship a TGE, or build developer adoption for cross-chain infrastructure.",
+      title: 'Most agencies don\u2019t understand your market',
+      body: "They've run brand campaigns at mid-market SaaS companies. They'll talk about funnels and positioning frameworks. What they can't do: market a ZK-proof protocol to enterprise, orchestrate a TGE, or build developer adoption for cross-chain infrastructure.",
     },
     {
       num: '03',
-      title: 'Every Dimension is different',
-      body: 'A specific track record across Web3 infrastructure, ZK protocols, consumer crypto, and B2B SaaS. Three TGE-adjacent campaigns. $10M+ in ecosystem partnership deals. And the hands-on work ethic to actually execute — not just advise.',
+      title: 'We built Every Dimension to close that gap',
+      body: "A firm purpose-built for the intersection of Web3 and SaaS \u2014 with deep operating experience across infrastructure protocols, consumer crypto, and enterprise data. We embed with your team, operate at the speed you need, and bring the pattern recognition that only comes from doing this at scale.",
     },
   ]
 
@@ -52,9 +52,9 @@ export default function Problem() {
             color: '#fff',
           }}
         >
-          You need a CMO.
+          Great products don&rsquo;t
           <br />
-          You don&rsquo;t need a full-time one.
+          market themselves.
         </h2>
         <p
           style={{
@@ -65,8 +65,9 @@ export default function Problem() {
             marginBottom: '60px',
           }}
         >
-          The window between product-market fit and real scale is where most
-          early-stage companies lose momentum. Here&rsquo;s why.
+          The window between product-market fit and category leadership is
+          where most companies stall. Here&rsquo;s why &mdash; and how we
+          solve it.
         </p>
 
         {/* Problem grid */}

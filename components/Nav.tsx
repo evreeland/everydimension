@@ -13,10 +13,10 @@ export default function Nav() {
   }, [])
 
   const navLinks = [
-    { href: '#problem', label: 'Why It Works' },
+    { href: '#problem', label: 'Why Us' },
     { href: '#services', label: 'Services' },
-    { href: '#track-record', label: 'Track Record' },
-    { href: '#about', label: 'About' },
+    { href: '#track-record', label: 'Results' },
+    { href: '#about', label: 'Approach' },
   ]
 
   return (
@@ -112,7 +112,7 @@ export default function Nav() {
               el.style.transform = 'translateY(0)'
             }}
           >
-            Let&rsquo;s Talk
+            Work With Us
           </a>
         </li>
       </ul>
@@ -181,7 +181,7 @@ export default function Nav() {
               textAlign: 'center',
             }}
           >
-            Let&rsquo;s Talk
+            Work With Us
           </a>
         </div>
       )}

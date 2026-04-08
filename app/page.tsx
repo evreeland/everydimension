@@ -42,7 +42,7 @@ export default function Home() {
           Every<span style={{ color: '#3b82f6' }}>Dimension</span>
         </a>
         <p style={{ fontSize: '13px', color: '#444' }}>
-          everydimension.xyz &mdash; Fractional CMO for Web3 and SaaS
+          everydimension.xyz &mdash; GTM Strategy for Web3 and SaaS
         </p>
         <p style={{ fontSize: '13px', color: '#444' }}>
           &copy; {new Date().getFullYear()} Every Dimension. All rights reserved.
