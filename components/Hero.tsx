@@ -156,11 +156,11 @@ export default function Hero() {
         <div
           style={{
             display: 'flex',
-            gap: '56px',
+            justifyContent: 'space-between',
             marginTop: '80px',
             paddingTop: '48px',
             borderTop: '1px solid #1f1f1f',
-            flexWrap: 'wrap',
+            flexWrap: 'nowrap',
           }}
         >
           {[
