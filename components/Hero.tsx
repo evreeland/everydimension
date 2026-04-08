@@ -154,13 +154,13 @@ export default function Hero() {
 
         {/* Stats bar */}
         <div
+          className="stats-bar"
           style={{
-            display: 'flex',
-            justifyContent: 'space-between',
+            display: 'grid',
+            gridTemplateColumns: 'repeat(4, 1fr)',
             marginTop: '80px',
             paddingTop: '48px',
             borderTop: '1px solid #1f1f1f',
-            flexWrap: 'nowrap',
           }}
         >
           {[
@@ -203,6 +203,10 @@ export default function Hero() {
           }
           #hero h1 {
             letter-spacing: -1.5px !important;
+          }
+          .stats-bar {
+            grid-template-columns: repeat(2, 1fr) !important;
+            gap: 32px 0 !important;
           }
         }
       `}</style>
