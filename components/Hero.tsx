@@ -169,7 +169,7 @@ export default function Hero() {
             { val: '1M', suffix: '+', label: ['Users acquired', 'across products'] },
             { val: '$20M', suffix: '+', label: ['Partnership deals', 'closed'] },
           ].map((stat) => (
-            <div key={stat.label}>
+            <div key={stat.label[0]}>
               <div
                 style={{
                   fontSize: '34px',
